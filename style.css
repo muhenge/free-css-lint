@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
+}
+
+header {
+  background-image: url("../images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  height: 550px;
+  background-size: 100% 100%;
+}
+
+#navi {
+  display: block;
+}
+
+nav {
+  display: block;
+  width: 75%;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 15px;
+  border-style: inset;
+  vertical-align: top;
+  width: 70%;
+  background: #5e5e5e;
+}
+
+ul {
+  display: flex;
+  border: 1px solid #5e5e5e;
+  border-radius: 5px;
+  height: 35px;
+  background: -moz-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(0, 0, 0, 0) 97%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
+    -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(
+            0,
+            0,
+            0,
+            0
+          )
+          99.8%, rgba(0, 0, 0, 0.2) 100%),
+    -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.05, rgba(0, 0, 0, 0)),
+      color-stop(0.97, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+ul:hover {
+  background-image: linear-gradient();
+}
+
+li {
+  display: inline;
+  flex-direction: row;
+  border: 1px solid #5e5e5e;
+  padding: 4px 0 0 35px;
+  width: 100%;
+}
+
+li:hover {
+  background: -moz-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(0, 0, 0, 0) 97%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
+    -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(
+            0,
+            0,
+            0,
+            0
+          )
+          99.8%, rgba(0, 0, 0, 0.2) 100%),
+    -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.search {
+  width: 150%;
+  padding: 5px;
+}
+
+.search-icon > i {
+  position: relative;
+  left: 23px;
+  color: white;
+}
+
+.search-icon > i,
+input {
+  vertical-align: middle;
+}
+
+.header-links {
+  height: 220px;
+  width: 65%;
+  position: relative;
+  top: 155px;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.header-links > .h-header > a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.watch-header > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+section {
+  display: flex;
+}
+
+.box {
+  flex-direction: row;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 25%;
+}
+
+footer {
+  padding: 0 35px 0 35px;
+}
+
+small {
+  font-size: 0.7rem;
+  color: #5e5e5e;
+}
+
+.foot {
+  float: right;
+  margin-right: 35px;
+}
